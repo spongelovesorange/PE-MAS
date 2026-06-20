@@ -1,0 +1,7 @@
+{
+  "name": "Design Peer Review",
+  "description": "Performs structured peer-review on design/verification outputs and flags false-pass risks.",
+  "version": "1.0.0",
+  "author": "PE-MAS",
+  "entry_point": "review_design"
+}

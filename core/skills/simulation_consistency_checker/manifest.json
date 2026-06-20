@@ -1,0 +1,7 @@
+{
+  "name": "Simulation Consistency Checker",
+  "description": "Evaluates corner and sensitivity consistency to reduce single-run simulation randomness.",
+  "version": "1.0.0",
+  "author": "PE-MAS",
+  "entry_point": "check_consistency"
+}

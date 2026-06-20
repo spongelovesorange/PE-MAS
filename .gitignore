@@ -1,0 +1,46 @@
+# Python cache and build output
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+
+# Local environments and secrets
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
+*.sublime-workspace
+*.swp
+
+# Local runtime output
+.pe_mas_runtime/
+.files/
+tmp/
+*.log
+design_report.md
+design_report_waveform.png
+
+# Generated simulation output
+core/simulation/**/*_Auto_Run.plecs
+core/simulation/**/*.csv
+core/simulation/**/*.log
+
+# Local component databases and downloaded source data
+core/knowledge/component_db/digikey_components.sqlite
+core/knowledge/component_db/raw_exports/
+core/knowledge/kb/
+core/knowledge/**/saved_index/
+
+# Local experiment/result bundles
+archive/
+experiment*/
+*.zip

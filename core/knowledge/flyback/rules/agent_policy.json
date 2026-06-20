@@ -1,0 +1,31 @@
+{
+  "name": "flyback_agent_policy",
+  "version": "1.0",
+  "policy": {
+    "system_prompt_role": "Keep only short non-overridable behavior rules in the system prompt.",
+    "knowledge_base_role": "Use source_docs/Flyback_AI_Agent_知识库_V2.md as the RAG source for KPI, theory, PLECS diagnosis, optimization, and redline checks.",
+    "ui_role": "Render only structured MAS conclusions and evidence references in normal UI; raw source text belongs in trace/evidence views.",
+    "release_rule": "Never mark schematic, BOM, PCB, transformer, EMI, safety, thermal, or release artifacts final without calculation, simulation, datasheet/source, EDA, or bench evidence."
+  },
+  "routing": {
+    "requirements": [
+      "application KPI matrix",
+      "requirement completeness",
+      "assumption control",
+      "redline rules"
+    ],
+    "simulation": [
+      "PLECS waveform interpretation",
+      "efficiency diagnosis",
+      "stress diagnosis",
+      "EMI diagnosis",
+      "solver troubleshooting"
+    ],
+    "review": [
+      "KPI grading",
+      "root-cause diagnosis",
+      "optimization decision matrix",
+      "guardrail violations"
+    ]
+  }
+}

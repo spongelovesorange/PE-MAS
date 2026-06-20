@@ -1,0 +1,7 @@
+{
+  "name": "Final Report Writer",
+  "description": "Builds a structured, traceable engineering report from MAS state with KPI, risk, and action plan sections.",
+  "version": "1.0.0",
+  "author": "PE-MAS",
+  "entry_point": "generate_final_report"
+}

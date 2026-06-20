@@ -1,0 +1,7 @@
+{
+  "name": "Parameter Sensitivity Planner",
+  "description": "Ranks correction actions by expected KPI gain and risk.",
+  "version": "1.0.0",
+  "author": "PE-MAS",
+  "entry_point": "plan_parameter_sensitivity"
+}

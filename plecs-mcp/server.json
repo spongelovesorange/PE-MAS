@@ -1,0 +1,28 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pe-mas/plecs-mcp",
+  "title": "PLECS MCP",
+  "description": "Generic MCP server for controlling PLECS via XML-RPC",
+  "repository": {
+    "url": "https://github.com/your-org/plecs-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
+      "identifier": "plecs-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "PLECS_RPC_URL",
+          "description": "PLECS XML-RPC endpoint URL"
+        }
+      ]
+    }
+  ]
+}

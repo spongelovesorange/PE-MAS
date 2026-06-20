@@ -1,0 +1,7 @@
+{
+  "name": "Magnetics Designer",
+  "description": "Optional OpenMagnetics bridge for magnetic design probing, advisory synthesis, and manufacturability guidance.",
+  "version": "0.1.0",
+  "author": "PE-MAS",
+  "entry_point": "advise_magnetics"
+}

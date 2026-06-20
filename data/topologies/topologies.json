@@ -1,0 +1,414 @@
+[
+  {
+    "name": "Buck Converter",
+    "aliases": [
+      "buck",
+      "step-down converter",
+      "降压变换器"
+    ],
+    "converter_family": "non-isolated dc-dc",
+    "isolated": false,
+    "conversion_direction": "step_down",
+    "typical_applications": [
+      "point-of-load regulators",
+      "battery-powered systems",
+      "low-voltage rails"
+    ],
+    "key_required_specs": [
+      "input voltage range",
+      "output voltage",
+      "output current or power",
+      "ripple",
+      "transient response",
+      "thermal constraints"
+    ],
+    "main_design_tasks": [
+      "inductor ripple sizing",
+      "MOSFET/diode or synchronous switch selection",
+      "output capacitor sizing",
+      "control loop compensation",
+      "thermal review"
+    ],
+    "common_risks": [
+      "high duty-cycle extremes",
+      "switching loss",
+      "inductor saturation",
+      "loop instability",
+      "EMI from hot loop layout"
+    ],
+    "plecs_model_status": "not_in_release",
+    "local_model_path": "",
+    "data_provenance": {
+      "source": "PE-MAS seed topology database",
+      "license_or_usage_note": "internal seed data",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Boost Converter",
+    "aliases": [
+      "boost",
+      "step-up converter",
+      "升压变换器"
+    ],
+    "converter_family": "non-isolated dc-dc",
+    "isolated": false,
+    "conversion_direction": "step_up",
+    "typical_applications": [
+      "battery boost rails",
+      "LED drivers",
+      "front-end preregulators"
+    ],
+    "key_required_specs": [
+      "input voltage range",
+      "output voltage",
+      "output power",
+      "ripple",
+      "startup behavior",
+      "protection thresholds"
+    ],
+    "main_design_tasks": [
+      "inductor energy sizing",
+      "switch and diode stress review",
+      "output capacitor RMS current",
+      "control loop compensation",
+      "input current ripple filtering"
+    ],
+    "common_risks": [
+      "right-half-plane zero in CCM",
+      "large output capacitor stress",
+      "switch overvoltage",
+      "startup/inrush behavior"
+    ],
+    "plecs_model_status": "planned",
+    "local_model_path": "",
+    "data_provenance": {
+      "source": "PE-MAS seed topology database",
+      "license_or_usage_note": "internal seed data",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Buck-Boost Converter",
+    "aliases": [
+      "buck boost",
+      "inverting buck-boost",
+      "降升压变换器"
+    ],
+    "converter_family": "non-isolated dc-dc",
+    "isolated": false,
+    "conversion_direction": "step_up_down",
+    "typical_applications": [
+      "battery rails crossing output voltage",
+      "portable electronics",
+      "wide-input dc-dc"
+    ],
+    "key_required_specs": [
+      "input voltage range relative to output",
+      "output voltage polarity",
+      "output current",
+      "ripple",
+      "efficiency target"
+    ],
+    "main_design_tasks": [
+      "mode transition review",
+      "inductor current stress",
+      "switch/diode voltage stress",
+      "control loop design",
+      "thermal review"
+    ],
+    "common_risks": [
+      "high RMS current",
+      "polarity constraints",
+      "mode-transition instability",
+      "EMI"
+    ],
+    "plecs_model_status": "planned",
+    "local_model_path": "",
+    "data_provenance": {
+      "source": "PE-MAS seed topology database",
+      "license_or_usage_note": "internal seed data",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Flyback Converter",
+    "aliases": [
+      "flyback",
+      "isolated flyback",
+      "反激"
+    ],
+    "converter_family": "isolated dc-dc / ac-dc",
+    "isolated": true,
+    "conversion_direction": "step_up_down",
+    "typical_applications": [
+      "offline adapters",
+      "auxiliary supplies",
+      "low-to-mid power isolated supplies"
+    ],
+    "key_required_specs": [
+      "input voltage range",
+      "output voltage/current",
+      "isolation class",
+      "ripple",
+      "efficiency target",
+      "EMI target",
+      "ambient"
+    ],
+    "main_design_tasks": [
+      "reflected voltage selection",
+      "primary inductance and peak current",
+      "transformer insulation/winding package",
+      "clamp/snubber design",
+      "opto/TL431 loop compensation",
+      "EMI filter/layout"
+    ],
+    "common_risks": [
+      "leakage spike and MOSFET stress",
+      "transformer temperature rise",
+      "RCD loss",
+      "opto CTR aging",
+      "conducted EMI"
+    ],
+    "plecs_model_status": "available",
+    "local_model_path": "core/simulation/flyback/Flyback_effi.plecs",
+    "data_provenance": {
+      "source": "PE-MAS seed topology database",
+      "license_or_usage_note": "internal seed data",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Half-Bridge Converter",
+    "aliases": [
+      "half bridge",
+      "half-bridge dc-dc",
+      "半桥"
+    ],
+    "converter_family": "isolated dc-dc",
+    "isolated": true,
+    "conversion_direction": "step_up_down",
+    "typical_applications": [
+      "medium-power isolated dc-dc",
+      "industrial supplies",
+      "telecom power"
+    ],
+    "key_required_specs": [
+      "input bus",
+      "output power",
+      "isolation",
+      "transformer turns ratio",
+      "dead time",
+      "control method"
+    ],
+    "main_design_tasks": [
+      "bridge device stress",
+      "transformer design",
+      "gate drive/dead-time planning",
+      "rectifier selection",
+      "control and protection"
+    ],
+    "common_risks": [
+      "shoot-through",
+      "transformer saturation",
+      "imbalance",
+      "EMI",
+      "gate-drive isolation"
+    ],
+    "plecs_model_status": "missing",
+    "local_model_path": "",
+    "data_provenance": {
+      "source": "PE-MAS seed topology database",
+      "license_or_usage_note": "internal seed data",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Full-Bridge Converter",
+    "aliases": [
+      "full bridge",
+      "phase-shift full bridge",
+      "psfb",
+      "全桥"
+    ],
+    "converter_family": "isolated dc-dc",
+    "isolated": true,
+    "conversion_direction": "step_up_down",
+    "typical_applications": [
+      "high-power isolated dc-dc",
+      "server power",
+      "battery chargers"
+    ],
+    "key_required_specs": [
+      "input bus",
+      "output power",
+      "isolation",
+      "efficiency",
+      "cooling method",
+      "control method"
+    ],
+    "main_design_tasks": [
+      "bridge switch selection",
+      "transformer and leakage design",
+      "rectifier/SR design",
+      "ZVS range check",
+      "thermal and EMI review"
+    ],
+    "common_risks": [
+      "circulating current",
+      "loss of ZVS",
+      "transformer leakage stress",
+      "control complexity"
+    ],
+    "plecs_model_status": "missing",
+    "local_model_path": "",
+    "data_provenance": {
+      "source": "PE-MAS seed topology database",
+      "license_or_usage_note": "internal seed data",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "LLC Resonant Converter",
+    "aliases": [
+      "llc",
+      "resonant converter",
+      "llc resonant",
+      "谐振变换器"
+    ],
+    "converter_family": "isolated resonant dc-dc",
+    "isolated": true,
+    "conversion_direction": "resonant",
+    "typical_applications": [
+      "high-efficiency adapters",
+      "server supplies",
+      "TV power",
+      "EV chargers"
+    ],
+    "key_required_specs": [
+      "input bus range",
+      "output power",
+      "hold-up",
+      "load range",
+      "efficiency",
+      "isolation",
+      "control range"
+    ],
+    "main_design_tasks": [
+      "resonant tank design",
+      "transformer design",
+      "gain curve analysis",
+      "SR timing",
+      "startup and burst mode",
+      "EMI"
+    ],
+    "common_risks": [
+      "wide input gain range",
+      "light-load regulation",
+      "magnetic tolerance",
+      "SR mis-timing",
+      "startup stress"
+    ],
+    "plecs_model_status": "planned",
+    "local_model_path": "",
+    "data_provenance": {
+      "source": "PE-MAS seed topology database",
+      "license_or_usage_note": "internal seed data",
+      "confidence": "medium"
+    }
+  },
+  {
+    "name": "Dual Active Bridge / DAB",
+    "aliases": [
+      "dab",
+      "dual active bridge",
+      "双有源桥"
+    ],
+    "converter_family": "isolated bidirectional dc-dc",
+    "isolated": true,
+    "conversion_direction": "bidirectional",
+    "typical_applications": [
+      "EV power transfer",
+      "battery interfaces",
+      "solid-state transformers",
+      "dc microgrids"
+    ],
+    "key_required_specs": [
+      "port voltage ranges",
+      "power direction",
+      "rated/peak power",
+      "isolation",
+      "switching frequency",
+      "soft-switching range"
+    ],
+    "main_design_tasks": [
+      "phase-shift modulation",
+      "transformer leakage design",
+      "RMS current optimization",
+      "device stress",
+      "thermal design",
+      "control"
+    ],
+    "common_risks": [
+      "high circulating current",
+      "soft-switching loss",
+      "transformer leakage tolerance",
+      "bidirectional protection complexity"
+    ],
+    "plecs_model_status": "not_in_release",
+    "local_model_path": "",
+    "data_provenance": {
+      "source": "PE-MAS seed topology database",
+      "license_or_usage_note": "internal seed data",
+      "confidence": "high"
+    }
+  },
+  {
+    "name": "Three-Phase Voltage Source Inverter / VSI",
+    "aliases": [
+      "three phase inverter",
+      "vsi",
+      "3-phase inverter",
+      "三相逆变器"
+    ],
+    "converter_family": "dc-ac inverter",
+    "isolated": false,
+    "conversion_direction": "dc_ac",
+    "typical_applications": [
+      "motor drives",
+      "grid-tie inverters",
+      "UPS",
+      "traction inverters"
+    ],
+    "key_required_specs": [
+      "dc bus range",
+      "ac output voltage/current",
+      "switching frequency",
+      "modulation method",
+      "load or grid requirements",
+      "EMI/safety"
+    ],
+    "main_design_tasks": [
+      "switch module selection",
+      "gate-drive design",
+      "dc-link capacitor sizing",
+      "modulation/control",
+      "thermal design",
+      "EMI/filter design"
+    ],
+    "common_risks": [
+      "shoot-through",
+      "common-mode EMI",
+      "thermal cycling",
+      "overcurrent faults",
+      "dc-link ripple"
+    ],
+    "plecs_model_status": "missing",
+    "local_model_path": "",
+    "data_provenance": {
+      "source": "PE-MAS seed topology database",
+      "license_or_usage_note": "internal seed data",
+      "confidence": "medium"
+    }
+  }
+]

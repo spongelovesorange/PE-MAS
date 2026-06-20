@@ -1,0 +1,7 @@
+{
+  "name": "Engineering Citation Manager",
+  "description": "Normalizes, deduplicates, and audits references for traceable engineering reports.",
+  "version": "1.0.0",
+  "author": "PE-MAS",
+  "entry_point": "build_citation_pack"
+}

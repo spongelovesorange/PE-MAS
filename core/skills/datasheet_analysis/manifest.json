@@ -1,0 +1,7 @@
+{
+    "name": "Datasheet Analyzer",
+    "description": "Analyzes component datasheets (PDFs) to extract key parameters for validation.",
+    "version": "1.0.0",
+    "author": "System",
+    "entry_point": "analyze"
+}

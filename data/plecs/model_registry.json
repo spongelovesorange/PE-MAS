@@ -1,0 +1,74 @@
+[
+  {
+    "topology": "Buck Converter",
+    "model_family": "non-isolated dc-dc",
+    "status": "not_in_release",
+    "local_model_path": "",
+    "validation_status": "not_available",
+    "notes": "Model omitted from this public release; add a validated local model before claiming PLECS coverage."
+  },
+  {
+    "topology": "Flyback Converter",
+    "model_family": "isolated ac-dc/dc-dc",
+    "status": "available",
+    "local_model_path": "core/simulation/flyback/Flyback_effi.plecs",
+    "validation_status": "unvalidated",
+    "notes": "Local flyback model exists; closed-loop and full-front-end coverage still require validation gates."
+  },
+  {
+    "topology": "Dual Active Bridge / DAB",
+    "model_family": "isolated bidirectional dc-dc",
+    "status": "not_in_release",
+    "local_model_path": "",
+    "validation_status": "not_available",
+    "notes": "Model omitted from this public release; add a validated local model before claiming PLECS coverage."
+  },
+  {
+    "topology": "Boost Converter",
+    "model_family": "non-isolated dc-dc",
+    "status": "planned",
+    "local_model_path": "",
+    "validation_status": "not_available",
+    "notes": "No local PLECS model file is present."
+  },
+  {
+    "topology": "Buck-Boost Converter",
+    "model_family": "non-isolated dc-dc",
+    "status": "planned",
+    "local_model_path": "",
+    "validation_status": "not_available",
+    "notes": "No local PLECS model file is present."
+  },
+  {
+    "topology": "Half-Bridge Converter",
+    "model_family": "isolated dc-dc",
+    "status": "missing",
+    "local_model_path": "",
+    "validation_status": "not_available",
+    "notes": "Do not claim PLECS coverage until a model file is added and validated."
+  },
+  {
+    "topology": "Full-Bridge Converter",
+    "model_family": "isolated dc-dc",
+    "status": "missing",
+    "local_model_path": "",
+    "validation_status": "not_available",
+    "notes": "Do not claim PLECS coverage until a model file is added and validated."
+  },
+  {
+    "topology": "LLC Resonant Converter",
+    "model_family": "isolated resonant dc-dc",
+    "status": "planned",
+    "local_model_path": "",
+    "validation_status": "not_available",
+    "notes": "No local PLECS model file is present."
+  },
+  {
+    "topology": "Three-Phase Voltage Source Inverter / VSI",
+    "model_family": "dc-ac inverter",
+    "status": "missing",
+    "local_model_path": "",
+    "validation_status": "not_available",
+    "notes": "Do not claim PLECS coverage until a model file is added and validated."
+  }
+]

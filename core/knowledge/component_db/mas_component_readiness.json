@@ -1,0 +1,1327 @@
+{
+  "generated_at": "2026-04-13T17:59:18",
+  "source_audit": "core/knowledge/component_db/raw_exports/digikey_full_audit_20260309_194900.json",
+  "summary": {
+    "total_categories": 53,
+    "green": 39,
+    "yellow": 3,
+    "red": 11
+  },
+  "categories": {
+    "bjt_single": {
+      "color": "green",
+      "score": 0.9978,
+      "rows": 993,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 1.0,
+        "Current Rating": 0.993,
+        "Package / Case": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_bjt_single_20260309_170705.csv"
+    },
+    "bridge_rectifier": {
+      "color": "green",
+      "score": 0.997,
+      "rows": 1000,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 0.98,
+        "Current Rating": 0.967,
+        "Package / Case": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_bridge_rectifier_20260309_170705.csv"
+    },
+    "clamp_network": {
+      "color": "green",
+      "score": 0.9903,
+      "rows": 982,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 0.9929,
+        "Current Rating": 0.9155,
+        "Package / Case": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_clamp_network_20260309_190154.csv"
+    },
+    "clamp_snubber": {
+      "color": "green",
+      "score": 0.9903,
+      "rows": 982,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 0.9929,
+        "Current Rating": 0.9155,
+        "Package / Case": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_clamp_snubber_20260309_193156.csv"
+    },
+    "common_mode_choke": {
+      "color": "yellow",
+      "score": 0.9623,
+      "rows": 950,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Mounting Type"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 0.5779,
+        "Current Rating": 0.9821,
+        "Mounting Type": 0.9989
+      },
+      "strategy": "semi-auto: auto-select with confidence penalty + enforce secondary datasheet/web cross-check",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_common_mode_choke_20260309_173550.csv"
+    },
+    "connector_terminal_block": {
+      "color": "yellow",
+      "score": 0.954,
+      "rows": 1000,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Mounting Type"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 0.601,
+        "Current Rating": 0.594,
+        "Mounting Type": 1.0
+      },
+      "strategy": "semi-auto: auto-select with confidence penalty + enforce secondary datasheet/web cross-check",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_connector_terminal_block_20260309_184720.csv"
+    },
+    "controller": {
+      "color": "green",
+      "score": 0.985,
+      "rows": 950,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 0.9832,
+        "Current Rating": 0.9726,
+        "Package / Case": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_controller_20260309_190154.csv"
+    },
+    "current_transformer": {
+      "color": "red",
+      "score": 0.689,
+      "rows": 213,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Current Rating",
+        "Mounting Type",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Current Rating": 0.0,
+        "Mounting Type": 0.0,
+        "Package / Case": 1.0
+      },
+      "strategy": "degraded: only suggest candidates, require manual review or category-specific fallback policy",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_current_transformer_20260309_183325.csv"
+    },
+    "dc_dc_controller": {
+      "color": "green",
+      "score": 0.9865,
+      "rows": 950,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 1.0,
+        "Current Rating": 0.9832,
+        "Package / Case": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_dc_dc_controller_20260309_172126.csv"
+    },
+    "diode_rectifier": {
+      "color": "green",
+      "score": 0.9844,
+      "rows": 939,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 0.9989,
+        "Current Rating": 0.9957,
+        "Package / Case": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_diode_rectifier_20260309_165425.csv"
+    },
+    "diode_schottky": {
+      "color": "green",
+      "score": 0.997,
+      "rows": 989,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 0.999,
+        "Current Rating": 0.996,
+        "Package / Case": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_diode_schottky_20260309_165425.csv"
+    },
+    "electrolytic_cap": {
+      "color": "green",
+      "score": 0.9962,
+      "rows": 1000,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 1.0,
+        "Current Rating": 0.933,
+        "Package / Case": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_electrolytic_cap_20260309_175008.csv"
+    },
+    "emi_filter": {
+      "color": "yellow",
+      "score": 0.9623,
+      "rows": 950,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Mounting Type"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 0.5779,
+        "Current Rating": 0.9821,
+        "Mounting Type": 0.9989
+      },
+      "strategy": "semi-auto: auto-select with confidence penalty + enforce secondary datasheet/web cross-check",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_emi_filter_20260309_191542.csv"
+    },
+    "emi_filter_power_line": {
+      "color": "red",
+      "score": 0.9347,
+      "rows": 943,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Mounting Type"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 0.2089,
+        "Current Rating": 0.9438,
+        "Mounting Type": 0.9533
+      },
+      "strategy": "degraded: only suggest candidates, require manual review or category-specific fallback policy",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_emi_filter_power_line_20260309_175008.csv"
+    },
+    "esd_suppression": {
+      "color": "green",
+      "score": 0.9903,
+      "rows": 982,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 0.9929,
+        "Current Rating": 0.9155,
+        "Package / Case": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_esd_suppression_20260309_181907.csv"
+    },
+    "fan": {
+      "color": "red",
+      "score": 0.9427,
+      "rows": 1000,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Mounting Type"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 0.998,
+        "Current Rating": 0.999,
+        "Mounting Type": 0.0
+      },
+      "strategy": "degraded: only suggest candidates, require manual review or category-specific fallback policy",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_fan_20260309_184720.csv"
+    },
+    "ferrite_cores": {
+      "color": "red",
+      "score": 0.9038,
+      "rows": 975,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Current Rating",
+        "Mounting Type",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Current Rating": 0.4267,
+        "Mounting Type": 0.0,
+        "Package / Case": 1.0
+      },
+      "strategy": "degraded: only suggest candidates, require manual review or category-specific fallback policy",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_ferrite_cores_20260309_173550.csv"
+    },
+    "film_cap": {
+      "color": "green",
+      "score": 0.9867,
+      "rows": 975,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Package / Case",
+        "Mounting Type"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 0.881,
+        "Package / Case": 1.0,
+        "Mounting Type": 0.9949
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_film_cap_20260309_180446.csv"
+    },
+    "fuse": {
+      "color": "green",
+      "score": 0.9841,
+      "rows": 1000,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 0.721,
+        "Current Rating": 1.0,
+        "Package / Case": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_fuse_20260309_180446.csv"
+    },
+    "fuse_holder": {
+      "color": "green",
+      "score": 0.9807,
+      "rows": 975,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 0.8431,
+        "Current Rating": 0.9292,
+        "Package / Case": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_fuse_holder_20260309_180446.csv"
+    },
+    "gas_discharge_tube": {
+      "color": "green",
+      "score": 0.9961,
+      "rows": 996,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 0.9759,
+        "Current Rating": 0.9729,
+        "Package / Case": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_gas_discharge_tube_20260309_181907.csv"
+    },
+    "gate_driver": {
+      "color": "green",
+      "score": 0.9931,
+      "rows": 1000,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 0.993,
+        "Current Rating": 0.887,
+        "Package / Case": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_gate_driver_20260309_170705.csv"
+    },
+    "heatsink": {
+      "color": "red",
+      "score": 0.9333,
+      "rows": 1000,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Package / Case",
+        "Mounting Type"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Package / Case": 1.0,
+        "Mounting Type": 0.0
+      },
+      "strategy": "degraded: only suggest candidates, require manual review or category-specific fallback policy",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_heatsink_20260309_184720.csv"
+    },
+    "igbt_single": {
+      "color": "green",
+      "score": 0.9921,
+      "rows": 994,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 0.9557,
+        "Current Rating": 0.9336,
+        "Package / Case": 0.998
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_igbt_single_20260309_170705.csv"
+    },
+    "inductor_power": {
+      "color": "green",
+      "score": 0.9999,
+      "rows": 1000,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Current Rating",
+        "Mounting Type",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Current Rating": 0.999,
+        "Mounting Type": 0.999,
+        "Package / Case": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_inductor_power_20260309_173550.csv"
+    },
+    "input_cap": {
+      "color": "green",
+      "score": 0.9962,
+      "rows": 1000,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 1.0,
+        "Current Rating": 0.933,
+        "Package / Case": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_input_cap_20260309_190154.csv"
+    },
+    "input_protection": {
+      "color": "green",
+      "score": 0.9914,
+      "rows": 1000,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 0.915,
+        "Current Rating": 0.935,
+        "Package / Case": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_input_protection_20260309_190154.csv"
+    },
+    "isolator_digital": {
+      "color": "green",
+      "score": 0.9749,
+      "rows": 973,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 0.9671,
+        "Current Rating": 0.7122,
+        "Package / Case": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_isolator_digital_20260309_172126.csv"
+    },
+    "mlcc_cap": {
+      "color": "green",
+      "score": 1.0,
+      "rows": 1000,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Package / Case",
+        "Mounting Type"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 1.0,
+        "Package / Case": 1.0,
+        "Mounting Type": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_mlcc_cap_20260309_180446.csv"
+    },
+    "mosfet": {
+      "color": "green",
+      "score": 0.9994,
+      "rows": 998,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 1.0,
+        "Current Rating": 0.999,
+        "Package / Case": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_mosfet_20260309_165425.csv"
+    },
+    "mov_varistor": {
+      "color": "green",
+      "score": 0.9914,
+      "rows": 1000,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 0.915,
+        "Current Rating": 0.935,
+        "Package / Case": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_mov_varistor_20260309_181907.csv"
+    },
+    "ntc_thermistor": {
+      "color": "red",
+      "score": 0.9395,
+      "rows": 1000,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Current Rating",
+        "Package / Case",
+        "Mounting Type"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Current Rating": 0.0,
+        "Package / Case": 1.0,
+        "Mounting Type": 0.941
+      },
+      "strategy": "degraded: only suggest candidates, require manual review or category-specific fallback policy",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_ntc_thermistor_20260309_181907.csv"
+    },
+    "offline_controller": {
+      "color": "green",
+      "score": 0.9975,
+      "rows": 1000,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 0.983,
+        "Current Rating": 0.974,
+        "Package / Case": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_offline_controller_20260309_170705.csv"
+    },
+    "opamp": {
+      "color": "green",
+      "score": 0.9975,
+      "rows": 1000,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 0.986,
+        "Current Rating": 0.971,
+        "Package / Case": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_opamp_20260309_172126.csv"
+    },
+    "optocoupler_transistor": {
+      "color": "red",
+      "score": 0.6704,
+      "rows": 172,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 0.0,
+        "Current Rating": 0.0,
+        "Package / Case": 0.8547
+      },
+      "strategy": "degraded: only suggest candidates, require manual review or category-specific fallback policy",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_optocoupler_transistor_20260309_172126.csv"
+    },
+    "output_cap": {
+      "color": "green",
+      "score": 0.9962,
+      "rows": 1000,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 1.0,
+        "Current Rating": 0.933,
+        "Package / Case": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_output_cap_20260309_191542.csv"
+    },
+    "polymer_cap": {
+      "color": "green",
+      "score": 0.971,
+      "rows": 950,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 1.0,
+        "Current Rating": 0.7105,
+        "Package / Case": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_polymer_cap_20260309_175008.csv"
+    },
+    "pptc_resettable_fuse": {
+      "color": "green",
+      "score": 0.9872,
+      "rows": 950,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 1.0,
+        "Current Rating": 0.9947,
+        "Package / Case": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_pptc_resettable_fuse_20260309_181907.csv"
+    },
+    "relay_power": {
+      "color": "green",
+      "score": 1.0,
+      "rows": 1000,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Mounting Type"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 1.0,
+        "Current Rating": 1.0,
+        "Mounting Type": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_relay_power_20260309_183325.csv"
+    },
+    "resistor_smd": {
+      "color": "red",
+      "score": 0.9333,
+      "rows": 1000,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Package / Case",
+        "Mounting Type"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Package / Case": 1.0,
+        "Mounting Type": 0.0
+      },
+      "strategy": "degraded: only suggest candidates, require manual review or category-specific fallback policy",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_resistor_smd_20260309_183325.csv"
+    },
+    "resistor_through_hole": {
+      "color": "red",
+      "score": 0.9333,
+      "rows": 1000,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Package / Case",
+        "Mounting Type"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Package / Case": 1.0,
+        "Mounting Type": 0.0
+      },
+      "strategy": "degraded: only suggest candidates, require manual review or category-specific fallback policy",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_resistor_through_hole_20260309_183325.csv"
+    },
+    "shunt_resistor": {
+      "color": "green",
+      "score": 0.9801,
+      "rows": 975,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Package / Case",
+        "Mounting Type"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Package / Case": 1.0,
+        "Mounting Type": 0.7959
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_shunt_resistor_20260309_183325.csv"
+    },
+    "snubber_network": {
+      "color": "green",
+      "score": 0.9903,
+      "rows": 982,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 0.9929,
+        "Current Rating": 0.9155,
+        "Package / Case": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_snubber_network_20260309_184720.csv"
+    },
+    "supercap": {
+      "color": "green",
+      "score": 0.993,
+      "rows": 974,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Package / Case",
+        "Mounting Type"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 0.9959,
+        "Package / Case": 1.0,
+        "Mounting Type": 0.9959
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_supercap_20260309_180446.csv"
+    },
+    "thermal_pad": {
+      "color": "red",
+      "score": 0.9262,
+      "rows": 972,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Package / Case",
+        "Mounting Type"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Package / Case": 0.9979,
+        "Mounting Type": 0.0
+      },
+      "strategy": "degraded: only suggest candidates, require manual review or category-specific fallback policy",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_thermal_pad_20260309_184720.csv"
+    },
+    "transformer": {
+      "color": "green",
+      "score": 0.9965,
+      "rows": 1000,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Current Rating",
+        "Mounting Type",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Current Rating": 0.946,
+        "Mounting Type": 0.993,
+        "Package / Case": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_transformer_20260309_190154.csv"
+    },
+    "transformer_power": {
+      "color": "green",
+      "score": 0.9965,
+      "rows": 1000,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Current Rating",
+        "Mounting Type",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Current Rating": 0.946,
+        "Mounting Type": 0.993,
+        "Package / Case": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_transformer_power_20260309_173550.csv"
+    },
+    "transformer_smps": {
+      "color": "red",
+      "score": 0.9353,
+      "rows": 975,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Current Rating",
+        "Mounting Type",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Current Rating": 0.0,
+        "Mounting Type": 0.9764,
+        "Package / Case": 1.0
+      },
+      "strategy": "degraded: only suggest candidates, require manual review or category-specific fallback policy",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_transformer_smps_20260309_173550.csv"
+    },
+    "tvs_diodes": {
+      "color": "green",
+      "score": 0.9903,
+      "rows": 982,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 0.9929,
+        "Current Rating": 0.9155,
+        "Package / Case": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_tvs_diodes_20260309_165425.csv"
+    },
+    "voltage_reference": {
+      "color": "green",
+      "score": 0.9854,
+      "rows": 1000,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 0.975,
+        "Current Rating": 0.769,
+        "Package / Case": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_voltage_reference_20260309_172126.csv"
+    },
+    "x2_capacitor": {
+      "color": "green",
+      "score": 0.9928,
+      "rows": 1000,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Package / Case",
+        "Mounting Type"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 0.881,
+        "Package / Case": 1.0,
+        "Mounting Type": 0.993
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_x2_capacitor_20260309_175008.csv"
+    },
+    "y_capacitor": {
+      "color": "green",
+      "score": 0.9875,
+      "rows": 950,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Package / Case",
+        "Mounting Type"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 1.0,
+        "Package / Case": 1.0,
+        "Mounting Type": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_y_capacitor_20260309_175008.csv"
+    },
+    "zener_diodes": {
+      "color": "green",
+      "score": 0.9997,
+      "rows": 1000,
+      "required_fields": [
+        "Part Number",
+        "URL",
+        "Unit Price",
+        "Stock",
+        "Voltage - Rated",
+        "Current Rating",
+        "Package / Case"
+      ],
+      "required_field_rates": {
+        "Part Number": 1.0,
+        "URL": 1.0,
+        "Unit Price": 1.0,
+        "Stock": 1.0,
+        "Voltage - Rated": 0.999,
+        "Current Rating": 0.995,
+        "Package / Case": 1.0
+      },
+      "strategy": "full-auto: allow direct MAS auto-selection with standard rule checks",
+      "source_csv": "core/knowledge/component_db/raw_exports/digikey_zener_diodes_20260309_165425.csv"
+    }
+  }
+}

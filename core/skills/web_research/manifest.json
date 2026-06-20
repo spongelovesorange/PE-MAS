@@ -1,0 +1,7 @@
+{
+  "name": "Web Research Assistant",
+  "description": "Searches web sources (component pages, papers, blogs, forums) and returns structured engineering evidence.",
+  "version": "1.0.0",
+  "author": "System",
+  "entry_point": "research_web"
+}

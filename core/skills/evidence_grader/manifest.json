@@ -1,0 +1,7 @@
+{
+  "name": "Evidence Grader",
+  "description": "Grades quality and trustworthiness of local RAG and web evidence for design decisions.",
+  "version": "1.0.0",
+  "author": "PE-MAS",
+  "entry_point": "grade_evidence"
+}
